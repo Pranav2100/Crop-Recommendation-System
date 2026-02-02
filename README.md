@@ -1,29 +1,37 @@
-🌾 Crop Recommendation System
+# 🌾 Crop Recommendation System
 
 Crop Recommendation System is a Machine Learning–based web application that predicts the most suitable crop to grow based on soil nutrients and environmental conditions. The application uses a trained classification model and provides predictions through an interactive Flask-based web interface.
 
+<img width="960" height="601" alt="Screenshot 2026-02-02 171709" src="https://github.com/user-attachments/assets/20506645-a137-4160-aab5-e3018347d9b6" />
+
+
 Live Demo:- https://your-render-link.onrender.com/
+---
 
-🚀 Features
-Crop recommendation based on soil and climate data
-Machine Learning–based classification model
-Fast and accurate predictions
-User-friendly Flask web interface
-REST API endpoint for predictions
-Supports real-time form-based inputs
-Lightweight and deployment-ready architecture
+## 🚀 Features
+- Crop recommendation based on soil and climate data
+- Machine Learning–based classification model
+- Fast and accurate predictions
+- User-friendly Flask web interface
+- REST API endpoint for predictions
+- Supports real-time form-based inputs
+- Lightweight and deployment-ready architecture
 
-🛠️ Tech Stack
-Language: Python  
-Machine Learning: Scikit-learn  
-Web Framework: Flask  
-Data Handling: NumPy, Pandas  
-Model Storage: Pickle (.pkl)  
-Deployment: Render / Gunicorn  
+---
 
-▶️ How to Run the Project Locally
+## 🛠️ Tech Stack
+- **Language:** Python  
+- **Machine Learning:** Scikit-learn  
+- **Web Framework:** Flask  
+- **Data Handling:** NumPy, Pandas  
+- **Model Storage:** Pickle (.pkl)  
+- **Deployment:** Render / Gunicorn  
 
-1️⃣ Clone the repository
+---
+
+## ▶️ How to Run the Project Locally
+
+### 1️⃣ Clone the repository
 
 git clone https://github.com/Pranav2100/Crop-Recommendation-System.git  
 cd Crop-Recommendation-System  
@@ -43,6 +51,8 @@ python app.py
 
 Open browser and visit:  
 http://127.0.0.1:5000  
+
+---
 
 🔗 API Usage
 
@@ -65,6 +75,8 @@ Sample Input:
 Response:
 "rice"
 
+---
+
 📊 Model Details
 
 The model predicts the best crop based on:
@@ -78,9 +90,13 @@ The model predicts the best crop based on:
 
 Model trained using supervised machine learning techniques on agricultural datasets.
 
+---
+
 ⚠️ Disclaimer
 
 This project is created for educational and academic purposes only. Predictions should not be used as the sole basis for real-world agricultural decision-making.
+
+---
 
 👤 Author
 
