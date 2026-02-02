@@ -1,0 +1,10 @@
+import pickle
+
+# Load the saved model
+with open("croppredict.pkl", "rb") as file:
+    model = pickle.load(file)
+
+# Print the model details
+print(model)
+print("\nModel type:", type(model))
+
